@@ -1,0 +1,88 @@
+body {
+	 background-color: #f7f7f7;
+	 
+}
+
+.title {
+     font-size: 80px;
+	 font-family: 'Rouge Script', cursive;
+	 color: #444444;
+	 text-shadow: 2px 2px 9px rgba(255,255,255,0.95);
+	 text-align: center;
+	 margin: auto auto;
+}
+
+.caption {
+	 font-size: 11px;
+	 font-family: 'Arial', sans-serif;
+	 text-align: center;
+	 color: #999999;
+	 letter-spacing: 1px;
+	 padding-top: 5px;
+	 padding-bottom: 16px;
+	 margin: auto;
+
+}
+
+.links {
+	 font-size: 20px; 
+     font-family: 'Major Mono Display', monospace;
+     letter-spacing: -2px;
+     background-color: #444444; 
+     border-bottom-left-radius: 50px;
+     border-top-right-radius: 50px;
+     padding: 15px;
+     margin: auto auto;
+     text-align: center;
+     align-items: center;
+     max-width: 900px;
+}
+
+a {
+	 color: #fff;
+	 text-decoration: none;
+}
+
+a:hover {
+	 color: #adadad;
+	 transition: color 0.3s ease-out; 
+}
+
+a:active {
+	color: #000;
+	transition: color 0.10s ease;
+}
+
+img {
+	width: 15%;
+	align-items: center;
+	padding: 30px;
+	margin: auto;
+}
+img:hover {
+	opacity: 0.7;
+	transition: all 0.4s ease-out;
+	transform: scale(1.07);
+}
+
+.ceravno {
+	font-size: 15px;
+	font-family: 'Assistant', sans-serif;
+	letter-spacing: 2px;
+	color: #999999;
+	text-align: center;
+	padding: 30px 20px;
+	margin: auto;
+}
+
+.linkss {
+	font-size: 15px;
+	font-family: 'Assistant', sans-serif;
+	letter-spacing: 1px;
+	color: #000;
+	text-decoration: none;
+	align-items: center;
+	text-align: center;
+	padding: 15px 7px;
+	margin: auto;
+}
